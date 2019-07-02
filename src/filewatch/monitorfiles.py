@@ -58,7 +58,6 @@ class MonitorFiles(object):
             self.send_email("No process running with process name  ", name)
         elif 'Not Responding' in process:
             print('%s is Not responding' % (name))
-            
         else:
             print('%s is Running or Unknown' % (name))
         
